@@ -22,7 +22,7 @@ st.title("🧠 Human Cognitive Performance Analysis Dashboard")
 # Load data directly from a path
 @st.cache_data
 def load_data():
-    df = pd.read_csv("/human_cognitive/human_cognitive_performance.csv")
+    df = pd.read_csv("./human_cognitive_performance.csv")
     return df
 
 df = load_data()
